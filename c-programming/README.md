@@ -1,1 +1,3 @@
-This is the readme file of main branch.
+Repo -Codes
+Path- c-programming/
+This folder is for uploading different small programs,(practice programs) in c- language.
