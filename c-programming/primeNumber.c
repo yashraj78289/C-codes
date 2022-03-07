@@ -51,14 +51,14 @@ void calculatePrime(void)
     scanf("%d %d",&j,&k);
 
     //outer for
-    for(int m=j;j<k;++j)
+    for(int m=j;m<k;++m)
     {
         /*Checking the divisibility of number from 2-9*/
         //inner for
         for(int i=2;i<10;++i)
         {
             /*if it is divisible we will not print it */
-            if(j%i==0&&j!=i)break;
+            if(m%i==0&&m!=i)break;
             else if(i==9&&j!=1)printf("\t%d",j),count++,count2++;
         }//inner for end
         
@@ -71,7 +71,7 @@ void calculatePrime(void)
     }//outer for end
     printf("\n");
     for(int d=0;d<120;d++)printf("-");
-    printf("\n\nTotal %d Prime numbers between (%d %d)\n\n",count2,m,k);
+    printf("\n\nTotal %d Prime numbers between (%d %d)\n\n",count2,j,k);
 
     printf("\nDo you still want to continue here strike any other key\nPress 0 for Main menu OR 2 for exit\n");
     scanf("%d",&d);
