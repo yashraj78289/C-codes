@@ -59,7 +59,7 @@ void calculatePrime(void)
         {
             /*if it is divisible we will not print it */
             if(m%i==0&&m!=i)break;
-            else if(i==9&&j!=1)printf("\t%d",j),count++,count2++;
+            else if(i==9&&j!=1)printf("\t%d",m),count++,count2++;
         }//inner for end
         
         //Printing new line after 10 outputs
